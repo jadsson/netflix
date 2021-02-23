@@ -31,6 +31,7 @@ header .logo {
     font-size: 40px;
 }
 header nav a{
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     color: #bbb;
     margin: 15px;
@@ -42,20 +43,7 @@ header nav a:hover{
     background-color: white;
     color: var(--preto);
     border-radius: 2px;
-    /*animation-duration: 0.5s;
-    animation-name: botao-topo;
-    animation-fill-mode: forwards;*/
 }
-/*@keyframes botao-topo{
-    100%{
-    color: var(--preto);
-    font-size: 22px;
-    background-color: rgb(255, 255, 255);
-    border-radius: 4px;
-    box-shadow: 1px 2px 2px 0px #aaa;
-    padding: 8px;
-    }
-}*/
 
 /*filme principal*/
 .filme-principal{
@@ -127,3 +115,74 @@ header nav a:hover{
 .carrosel-filmes{
     margin-top: 5px;
 }
+
+
+.titulo-poster{
+    font-size: 40px;
+    text-align: center;
+}
+.botao-poster{
+    width: 100px;
+    border: none;
+    height: 60px;
+    background: rgba(144,144,144,0.2);
+    margin-top: 400px;
+    margin-left: 47%;
+    cursor: pointer;
+
+    transition: .2s ease all;
+}
+.botao-poster:hover{
+    background: white;
+}
+
+.poster1{
+    background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,1)90%), url("../img/break.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    margin: auto;
+    width: 50%;
+
+
+    animation-duration: 5s;
+
+    transition: 0.2s ease all;
+}
+.poster1:hover{
+    width: 100%;
+    background-position: top;
+    
+}
+
+.poster2{
+    background: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,1)90%),url("../img/peaky.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 50%;
+    margin: auto;
+
+    background-position: top;
+
+    transition: 0.2s ease all;
+}
+.poster2:hover{
+    width: 100%;
+}
+.poster3{
+    background:linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,1)90%), url("../img/vikings.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 50%;
+    margin: auto;
+
+    background-position: top;
+
+    transition: 0.2s ease all;
+}
+.poster3:hover{
+    width: 100%;
+}
+
