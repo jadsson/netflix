@@ -1,0 +1,33 @@
+@media screen and (max-width:650px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 15px;
+        
+    }
+
+    .botoes{
+        width: 70%;
+    }
+    .botao{
+        margin-top: 10px;
+        width: 250px;
+    }
+    nav{
+        padding: 0px;
+        width: 110%;
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .descricao{
+        width: 50%;
+    }
+}
+
+@media screen and (width: 540px){
+    nav{
+        text-align: center;
+    }
+}
